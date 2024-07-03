@@ -52,8 +52,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["Carl Cox", "999999999", "Richie Hawtin", "Nina Kravitz", "Techla"];
-  const rightLists = ["Joris Voorn", "Oscar Mulero", "Dj Pepo", "Saraiba", "Brenlla"];
+  const leftLists = ["Kompa", "Duart", "Borja Pikallo", "Irene Castro", "Techla"];
+  const rightLists = ["Hchspannung", "Ivan Rbeira", "Dj Pepo", "Saraiba", "Brenlla"];
 
   const [copied, setCopied] = useState(false);
 

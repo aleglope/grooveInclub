@@ -52,16 +52,16 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "DJ Brenlla",
-    des: "calle juan 123",
+    title: "DUAL CREW",
+    des: "Vier 26 jul 2024 ",
     img: "/sanxenxo.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://ticketrona.com/",
+    iconLists: ["/Logo-Groove.png", "/DualCrew.png", "/LogoP.svg", "/three.svg", "/fm.svg"],
+    link: "https://sales.premiumguest.com/dual-crew/es/dual-crew/groove-in-club-presenta-dual-crew ",
   },
   {
     id: 2,
     title: "DJ Pepo",
-    des: "calle juan 123",
+    des: "Av. Victoria, 3, 36970 Sanxenxo, Pontevedra, España",
     img: "/sanxenxo1.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
@@ -120,33 +120,15 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "",
+    img: "",
+    nameImg: "/logoGROOVE.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "",
+    img: "",
+    nameImg: "/logodualcrew.svg",
   },
 ];
 
@@ -190,5 +172,6 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
+    url: "https://www.instagram.com/_groovinclub/"
   },
 ];
