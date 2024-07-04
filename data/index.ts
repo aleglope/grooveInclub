@@ -19,13 +19,13 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "y mas....",
+    title: "y más....",
     description: "Techno,Trap,House,Electro",
     className: "flex lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-end",
     img: "",
-    spareImg: "",
+    spareImg: "/grid.svg",
   },
   {
     id: 5,
@@ -54,33 +54,9 @@ export const projects = [
     id: 1,
     title: "DUAL CREW",
     des: "Vier 26 Jul 2024 ",
-    img: "/sanxenxo.png",
-    iconLists: ["/Logo-Groove.png", "/DualCrew.png", "/LogoP.svg", "/three.svg", "/fm.svg"],
+    img: "/26julioCartel.svg",
+    iconLists: ["/Logo-Groove.png", "/DualCrew.png"],
     link: "https://sales.premiumguest.com/dual-crew/es/dual-crew/groove-in-club-presenta-dual-crew ",
-  },
-  {
-    id: 2,
-    title: "DJ Pepo",
-    des: "Vier 2 Ago 2024",
-    img: "/sanxenxo1.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
-  },
-  {
-    id: 3,
-    title: "Fatima Hajji",
-    des: "Vier 9 Ago 2024",
-    img: "/sanxenxo2.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Vier 16 Ago 2024",
-    img: "/gymare.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
   },
 ];
 
@@ -118,14 +94,20 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "Logo GROOVE",
+    name: "",
     img: "LogoGROOVE.svg",
     nameImg: "GIL",
   },
   {
     id: 2,
-    name: "Logo DUAL CREW",
+    name: "",
     img: "logodualcrew.svg",
+    nameImg: "DC",
+  },
+  {
+    id: 3,
+    name: "",
+    img: "DualCrew.svg",
     nameImg: "DC",
   },
 ];
@@ -163,10 +145,6 @@ export const workExperience = [
 
 export const socialMedia = [
 
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
   {
     id: 3,
     img: "/link.svg",

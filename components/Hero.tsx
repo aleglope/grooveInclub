@@ -43,7 +43,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            1,2,3...!
+            GROOVE IN CLUB PRESENTA DUAL CREW !
           </p>
 
           {/**
@@ -57,14 +57,15 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-          GROOVE IN CLUB es un evento musical que va dirigido a toda la gente vinculada a la estética urbana de la electrónica y underground apostando por la innovación y creatividad, potenciando diferentes géneros y dotando de las mejores infraestructuras que rompan los límites y nos sorprendan con nuevas formas de expresión, buscando la cercanía del público con el DJ y que ambos disfruten de esto.
-
-Muchos y muchas artistas vienen no solo por la actuación, sino por la ciudad donde elegimos hacer cada evento, por su gente, por el público, el ambiente... GROOVE IN CLUB es ese evento donde todos y todas quieren venir y en el que todos y todas somos una parte de el.
+          GROOVE IN CLUB es un evento musical que va dirigido a toda la gente vinculada a la estética urbana de la electrónica y el underground, 
+          apostando por la innovación y la creatividad, potenciando diferentes géneros y dotando de las mejores infraestructuras que rompan los límites y nos sorprendan con nuevas formas de expresión, 
+          buscando la cercanía del público con el DJ y que ambos disfruten de esto. Muchos y muchas artistas vienen no solo por la actuación, sino por la ciudad donde elegimos hacer cada evento, por su gente, por el público, el ambiente... 
+          GROOVE IN CLUB es ese evento donde todos y todas quieren venir y en el que todos y todas somos una parte de él.
           </p>
 
           <a href="#about">
             <MagicButton
-              title="Saber mas!!"
+              title="¡Saber más!"
               icon={<FaLocationArrow />}
               position="right"
             />

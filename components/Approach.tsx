@@ -7,7 +7,7 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        Mas <span className="text-purple">Contenido</span>
+      Lo que nos <span className="text-purple">Define</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
@@ -44,7 +44,7 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="FIESSHHHHHHHHHTAAAAAAAAAAAAAAA"
+          title="FIESSHHHHHHHHHTAAA"
           icon={<AceternityIcon order="REPEAT" />}
           des="En Groove InClub, cada noche es una sinfonía de ritmos y emociones, donde el latido de la música se sincroniza con los corazones de miles de personas. 
           No solo vives una experiencia inolvidable, sino que te sumerges en un ciclo eterno de energía y pasión: Sleep, Rave, Repeat.

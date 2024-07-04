@@ -16,10 +16,10 @@ const Footer = () => {
 
       <div className="flex flex-col items-center relative">
         <h1 className="heading lg:max-w-[45vw]">
-          <span className="text-purple">GROOVE INCLUB</span>
+          <span className="text-purple">GROOVE IN CLUB</span>
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          ¿Quieres colaborar con nosotros?.
+          ¿Quieres colaborar con nosotros?
         </p>
         <a href="mailto:contact@gmail.com">
           <MagicButton
@@ -31,7 +31,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 GROOVE INCLUB
+          Copyright © 2024 GROOVE IN CLUB
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
