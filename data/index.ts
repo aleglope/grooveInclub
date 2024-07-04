@@ -30,7 +30,7 @@ export const gridItems = [
   {
     id: 5,
     title: "Brenlla",
-    description: "DJ Residente",
+    description: "Residente",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -53,7 +53,7 @@ export const projects = [
   {
     id: 1,
     title: "DUAL CREW",
-    des: "Vier 26 jul 2024 ",
+    des: "Vier 26 Jul 2024 ",
     img: "/sanxenxo.png",
     iconLists: ["/Logo-Groove.png", "/DualCrew.png", "/LogoP.svg", "/three.svg", "/fm.svg"],
     link: "https://sales.premiumguest.com/dual-crew/es/dual-crew/groove-in-club-presenta-dual-crew ",
@@ -61,7 +61,7 @@ export const projects = [
   {
     id: 2,
     title: "DJ Pepo",
-    des: "Av. Victoria, 3, 36970 Sanxenxo, Pontevedra, España",
+    des: "Vier 2 Ago 2024",
     img: "/sanxenxo1.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
@@ -69,7 +69,7 @@ export const projects = [
   {
     id: 3,
     title: "Fatima Hajji",
-    des: "calle juan 123",
+    des: "Vier 9 Ago 2024",
     img: "/sanxenxo2.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
@@ -77,7 +77,7 @@ export const projects = [
   {
     id: 4,
     title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "Vier 16 Ago 2024",
     img: "/gymare.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
@@ -88,47 +88,45 @@ export const testimonials = [
   {
     quote:
       "¡Las fiestas Groove son increíbles! La energía, la música y la gente crean una experiencia única. Es como estar en una celebración mundial, donde todos se conectan a través del ritmo. ¡Definitivamente una noche para recordar!",
-    name: "María G.",
-    title: "Rave Girl",
+    name: "Rave Girl",
+    title: "",
+    img: "card3.png"
   },
   {
     quote:
-      "¡Las fiestas Groove son increíbles! La energía, la música y la gente crean una experiencia única. Es como estar en una celebración mundial, donde todos se conectan a través del ritmo. ¡Definitivamente una noche para recordar!",
-    name: "María G.",
-    title: "Rave Girl",
+      "Groove InClub no es solo una fiesta, es una experiencia que te atrapa y te hace querer más. La combinación de buena música y una atmósfera electrizante te hace sentir vivo. Sleep, Rave, Repeat. ¡Así es como se vive!",
+    name: "Rave People",
+    title: "",
+    img: "card.png"
   },
   {
     quote:
-      "¡Las fiestas Groove son increíbles! La energía, la música y la gente crean una experiencia única. Es como estar en una celebración mundial, donde todos se conectan a través del ritmo. ¡Definitivamente una noche para recordar!",
-    name: "María G.",
-    title: "Rave Girl",
+      "🔥🔥🔥🔥 el Groove es pura vida !!!!",
+    name: "Rave Man",
+    title: "",
+    img: "card2.png"
   },
   {
     quote:
-      "¡Las fiestas Groove son increíbles! La energía, la música y la gente crean una experiencia única. Es como estar en una celebración mundial, donde todos se conectan a través del ritmo. ¡Definitivamente una noche para recordar!",
-    name: "María G.",
-    title: "Rave Girl",
-  },
-  {
-    quote:
-      "¡Las fiestas Groove son increíbles! La energía, la música y la gente crean una experiencia única. Es como estar en una celebración mundial, donde todos se conectan a través del ritmo. ¡Definitivamente una noche para recordar!",
-    name: "María G.",
-    title: "Rave Girl",
+      "Desde la primera vez que fui a Groove InClub, supe que no sería la última. La experiencia es simplemente adictiva. Es el lugar perfecto para olvidarte de todo y disfrutar. ¡No puedo esperar para repetir!",
+    name: "Rave People",
+    title: "",
+    img: "card1.png"
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "",
-    img: "",
-    nameImg: "/logoGROOVE.svg",
+    name: "Logo GROOVE",
+    img: "LogoGROOVE.svg",
+    nameImg: "GIL",
   },
   {
     id: 2,
-    name: "",
-    img: "",
-    nameImg: "/logodualcrew.svg",
+    name: "Logo DUAL CREW",
+    img: "logodualcrew.svg",
+    nameImg: "DC",
   },
 ];
 

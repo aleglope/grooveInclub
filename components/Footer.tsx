@@ -16,15 +16,14 @@ const Footer = () => {
 
       <div className="flex flex-col items-center relative">
         <h1 className="heading lg:max-w-[45vw]">
-          <span className="text-purple">Groove InClub</span> cada noche es una nueva aventura: Sleep, Rave, Repeat. No pain, no gain.
-          Vive la intensidad, siente la música y repite la magia.
+          <span className="text-purple">GROOVE INCLUB</span>
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          ¿Quieres Colaborar con nosotros?.
+          ¿Quieres colaborar con nosotros?.
         </p>
         <a href="mailto:contact@gmail.com">
           <MagicButton
-            title="Mail"
+            title="MAIL"
             icon={<FaLocationArrow />}
             position="right"
           />
