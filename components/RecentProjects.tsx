@@ -4,10 +4,12 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
+import CanvasContainer from "./CanvasContainer";
 
 const RecentProjects = () => {
   return (
     <div className="py-20" id="eventos">
+      <CanvasContainer />
       <h1 className="heading">
         Siguientes{" "}
         <span className="text-purple">Eventos</span>
