@@ -52,61 +52,83 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "DUAL CREW",
+    title: "SAFARI CLUB",
     des: "Vier 26 Jul 2024 ",
     img: "/26julioCartel.svg",
     iconLists: ["/Logo-Groove.png", "/DualCrew.png"],
-    link: "https://sales.premiumguest.com/dual-crew/es/dual-crew/groove-in-club-presenta-dual-crew ",
+    link: "https://sales.premiumguest.com/dual-crew/es/dual-crew/groove-in-club-presenta-dual-crew",
+    location: "Sanxenxo Galicia",
+    startDate: "2024-07-26T22:00:00Z",
+    endDate: "2024-07-27T00:00:00Z"
   },
   {
-    id: 1,
-    title: "DUAL CREW",
+    id: 2,
+    title: "SAFARI CLUB",
     des: "Vier 02 Ago 2024 ",
     img: "/02agostoCartel.svg",
     iconLists: ["/Logo-Groove.png", "/DualCrew.png"],
     link: "",
+    location: "Sanxenxo Galicia",
+    startDate: "2024-08-02T22:00:00Z",
+    endDate: "2024-08-03T00:00:00Z"
   },
   {
-    id: 1,
-    title: "DUAL CREW",
+    id: 3,
+    title: "SAFARI CLUB",
     des: "Vier 09 Ago 2024 ",
     img: "/09agostoCartel.svg",
     iconLists: ["/Logo-Groove.png", "/DualCrew.png"],
     link: "",
+    location: "Sanxenxo Galicia",
+    startDate: "2024-08-09T22:00:00Z",
+    endDate: "2024-08-10T00:00:00Z"
   },
   {
-    id: 1,
-    title: "DUAL CREW",
+    id: 4,
+    title: "SAFARI CLUB",
     des: "Vier 16 Ago 2024 ",
     img: "/16agostoCartel.svg",
     iconLists: ["/Logo-Groove.png", "/DualCrew.png"],
     link: "",
+    location: "Sanxenxo Galicia",
+    startDate: "2024-08-16T22:00:00Z",
+    endDate: "2024-08-17T00:00:00Z"
   },
   {
-    id: 1,
-    title: "DUAL CREW",
+    id: 5,
+    title: "SAFARI CLUB",
     des: "Vier 23 Ago 2024 ",
     img: "/23agostoCartel.svg",
     iconLists: ["/Logo-Groove.png", "/DualCrew.png"],
     link: "",
+    location: "Sanxenxo Galicia",
+    startDate: "2024-08-23T22:00:00Z",
+    endDate: "2024-08-24T00:00:00Z"
   },
   {
-    id: 1,
-    title: "DUAL CREW",
+    id: 6,
+    title: "SAFARI CLUB",
     des: "Vier 30 Ago 2024 ",
     img: "/30agostoCartel.svg",
     iconLists: ["/Logo-Groove.png", "/DualCrew.png"],
     link: "",
+    location: "Sanxenxo Galicia",
+    startDate: "2024-08-30T22:00:00Z",
+    endDate: "2024-08-31T00:00:00Z"
   },
   {
-    id: 1,
-    title: "DUAL CREW",
+    id: 7,
+    title: "SAFARI CLUB",
     des: "Vier 13 Sep 2024 ",
     img: "/13septiembreCartel.svg",
     iconLists: ["/Logo-Groove.png", "/DualCrew.png"],
     link: "",
+    location: "Sanxenxo Galicia",
+    startDate: "2024-09-13T22:00:00Z",
+    endDate: "2024-09-14T00:00:00Z"
   },
 ];
+
 
 export const testimonials = [
   {

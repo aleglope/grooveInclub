@@ -15,7 +15,7 @@ export const images = [
       id: 3,
       src: "/Du-Art.svg",
       title: "Du'Art",
-      desc: "Du’ArT comenzó su trayectoria en 2006 y no pasó mucho tiempo para convertirse en uno de los artistas portugueses más solicitados y queridos por los fiesteros.",
+      desc: "Comenzó su trayectoria en 2006 y no pasó mucho tiempo para convertirse en uno de los artistas portugueses más solicitados y queridos por los fiesteros.",
     },
     {
       id: 4,
