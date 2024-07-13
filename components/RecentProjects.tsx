@@ -6,7 +6,7 @@ import { PinContainer } from "./ui/Pin";
 import CanvasContainer from "./CanvasContainer";
 
 // Helper function to format date for Google Calendar
-const formatDateForGoogleCalendar = (date) => {
+const formatDateForGoogleCalendar = (date: any) => {
   const formattedDate = new Date(date).toISOString().replace(/-|:|\.\d+/g, '');
   return formattedDate;
 };
