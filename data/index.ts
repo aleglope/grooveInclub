@@ -58,6 +58,30 @@ export const projects = [
     iconLists: ["/Logo-Groove.png", "/DualCrew.png"],
     link: "https://sales.premiumguest.com/dual-crew/es/dual-crew/groove-in-club-presenta-dual-crew ",
   },
+  {
+    id: 1,
+    title: "DUAL CREW",
+    des: "Vier 26 Jul 2024 ",
+    img: "/26julioCartel.svg",
+    iconLists: ["/Logo-Groove.png", "/DualCrew.png"],
+    link: "https://sales.premiumguest.com/dual-crew/es/dual-crew/groove-in-club-presenta-dual-crew ",
+  },
+  {
+    id: 1,
+    title: "DUAL CREW",
+    des: "Vier 26 Jul 2024 ",
+    img: "/26julioCartel.svg",
+    iconLists: ["/Logo-Groove.png", "/DualCrew.png"],
+    link: "https://sales.premiumguest.com/dual-crew/es/dual-crew/groove-in-club-presenta-dual-crew ",
+  },
+  {
+    id: 1,
+    title: "DUAL CREW",
+    des: "Vier 26 Jul 2024 ",
+    img: "/26julioCartel.svg",
+    iconLists: ["/Logo-Groove.png", "/DualCrew.png"],
+    link: "https://sales.premiumguest.com/dual-crew/es/dual-crew/groove-in-club-presenta-dual-crew ",
+  },
 ];
 
 export const testimonials = [
