@@ -19,7 +19,7 @@ export const images = [
     },
     {
       id: 4,
-      src: "/Ayako-Mori.svg",
+      src: "/Ayako-MOri.svg",
       title: "Ayako Mori",
       desc: "Desde 2014, Ayako Mori es una DJ y productora japonesa de techno, y es la cabeza de tres sellos discográficos (Physical Techno Recordings, Kalmary Records y Unbekannt/Label). Es DJ residente en Gegen Berlin.",
     },

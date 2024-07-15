@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
-import { SpotLight } from "@react-three/drei";
 import Model from "./ui/Model";
 import * as THREE from "three";
 
@@ -32,12 +31,25 @@ const BlinkingLight = ({ position = [0, 0, 0], colors = ["red", "green", "blue",
   return <pointLight ref={lightRef} position={positionVector} intensity={2} />;
 };
 
+// Componente BlinkingDirectionalLight para la luz direccional que parpadea
+const BlinkingDirectionalLight = ({ position = [0, 0, 0], speed = 1 }) => {
+  const lightRef = useRef<THREE.DirectionalLight>(null);
+  const positionVector = new THREE.Vector3(position[0], position[1], position[2]);
+  useFrame(({ clock }) => {
+    const elapsed = clock.getElapsedTime() * speed;
+    if (lightRef.current) {
+      lightRef.current.intensity = (Math.sin(elapsed * 5) + 1.5) / 1.5;
+    }
+  });
+  return <directionalLight ref={lightRef} position={positionVector} intensity={1} />;
+};
+
 const CanvasContainer = () => {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100vw', height: '100vh' }}>
-      <Canvas camera={{ position: [5, 2, 11] }}>
+      <Canvas camera={{ position: [5, 2, 12] }}>
         <ambientLight intensity={0.7} />
-        <directionalLight position={[4, 10, 10]} intensity={1.4} />
+        <BlinkingDirectionalLight position={[3, 4, 15]} speed={1} />
         <Model />
         {/* Añadir varias Luciérnagas */}
         <FireFly radius={8} speed={1.2} color="yellow" />

@@ -13,13 +13,13 @@ type Props = {
 
 const Description = ({ activeImage, clickNext, clickPrev }: Props) => {
   return (
-    <div className="grid place-items-start w-full bg-[rgb(4,7,29)] border border-white/[0.1] relative md:rounded-tr-3xl md:rounded-br-3xl p-2 md:p-4">
+    <div className="grid place-items-start w-full bg-[rgb(4,7,29)] border border-white/[0.1] relative rounded-tr-2xl rounded-br-2xl md:rounded-tr-3xl md:rounded-br-3xl p-4 sm:p-6 md:p-8 lg:p-8 xl:p-2">
       {images.map((elem, idx) => (
         <div
           key={idx}
           className={`${
             idx === activeImage
-              ? "block w-full h-full md:h-[21vh] py-3 md:px-3 px-1 text-left"
+              ? "block w-full h-full py-6 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 text-left"
               : "hidden"
           }`}
         >
@@ -42,7 +42,7 @@ const Description = ({ activeImage, clickNext, clickPrev }: Props) => {
             <div className="py-2 text-lg md:text-xl font-extrabold text-[#8d2ac7]">
               {elem.title}
             </div>
-            <div className="leading-relaxed font-medium text-xs md:text-sm tracking-wide h-14 md:h-11 italic text-gray-300">
+            <div className="leading-relaxed font-medium text-xs md:text-sm lg:text-xs tracking-wide h-auto max-h-[12rem] md:max-h-[10rem] lg:max-h-[10rem] italic text-gray-300">
               {elem.desc}
             </div>
           </motion.div>
