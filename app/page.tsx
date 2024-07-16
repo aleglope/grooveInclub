@@ -10,7 +10,7 @@ import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Slider from "@/components/ui/Slider";
-import CanvasContainer from "@/components/CanvasContainer";
+
 
 const Home = () => {
   return (

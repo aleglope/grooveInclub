@@ -1,9 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { IoCopyOutline } from "react-icons/io5";
-
-import Lottie from "react-lottie";
 import { cn } from "@/lib/utils";
-
 import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
@@ -51,6 +48,15 @@ export const BentoGridItem = ({
   const rightLists = ["Hchspannung", "Ivan Rbeira", "Dj Pepo", "Saraiba", "Brenlla"];
 
   const [copied, setCopied] = useState(false);
+  const [Lottie, setLottie] = useState<typeof import('react-lottie').default | null>(null);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      import('react-lottie').then(LottieModule => {
+        setLottie(() => LottieModule.default);
+      });
+    }
+  }, []);
 
   const defaultOptions = {
     loop: copied,
@@ -152,12 +158,9 @@ export const BentoGridItem = ({
               </div>
             </div>
           )}
-          {id === 6 && (
+          {id === 6 && Lottie && (
             <div className="mt-5 relative">
-              <div
-                className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
-                  }`}
-              >
+              <div className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"}`}>
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
 

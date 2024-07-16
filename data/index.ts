@@ -59,8 +59,8 @@ export const projects = [
     instagram: "https://www.instagram.com/_groovinclub/",
     link: "https://sales.premiumguest.com/dual-crew/es/dual-crew/groove-in-club-presenta-dual-crew",
     location: "Sanxenxo Galicia",
-    startDate: "2024-07-26T22:00:00Z",
-    endDate: "2024-07-27T00:00:00Z"
+    startDate: "2024-07-26T20:00:00Z",
+    endDate: "2024-07-27T04:00:00Z"
   },
   {
     id: 2,
@@ -71,8 +71,8 @@ export const projects = [
     instagram: "https://www.instagram.com/_groovinclub/",
     link: "",
     location: "Sanxenxo Galicia",
-    startDate: "2024-08-02T22:00:00Z",
-    endDate: "2024-08-03T00:00:00Z"
+    startDate: "2024-08-02T20:00:00Z",
+    endDate: "2024-08-03T04:00:00Z"
   },
   {
     id: 3,
@@ -83,8 +83,8 @@ export const projects = [
     instagram: "https://www.instagram.com/_groovinclub/",
     link: "",
     location: "Sanxenxo Galicia",
-    startDate: "2024-08-09T22:00:00Z",
-    endDate: "2024-08-10T00:00:00Z"
+    startDate: "2024-08-09T20:00:00Z",
+    endDate: "2024-08-10T04:00:00Z"
   },
   {
     id: 4,
@@ -95,8 +95,8 @@ export const projects = [
     instagram: "https://www.instagram.com/_groovinclub/",
     link: "",
     location: "Sanxenxo Galicia",
-    startDate: "2024-08-16T22:00:00Z",
-    endDate: "2024-08-17T00:00:00Z"
+    startDate: "2024-08-16T20:00:00Z",
+    endDate: "2024-08-17T04:00:00Z"
   },
   {
     id: 5,
@@ -107,8 +107,8 @@ export const projects = [
     instagram: "https://www.instagram.com/_groovinclub/",
     link: "",
     location: "Sanxenxo Galicia",
-    startDate: "2024-08-23T22:00:00Z",
-    endDate: "2024-08-24T00:00:00Z"
+    startDate: "2024-08-23T20:00:00Z",
+    endDate: "2024-08-24T04:00:00Z"
   },
   {
     id: 6,
@@ -119,8 +119,8 @@ export const projects = [
     instagram: "https://www.instagram.com/_groovinclub/",
     link: "",
     location: "Sanxenxo Galicia",
-    startDate: "2024-08-30T22:00:00Z",
-    endDate: "2024-08-31T00:00:00Z"
+    startDate: "2024-08-30T20:00:00Z",
+    endDate: "2024-08-31T04:00:00Z"
   },
   {
     id: 7,
@@ -131,8 +131,8 @@ export const projects = [
     instagram: "https://www.instagram.com/_groovinclub/",
     link: "",
     location: "Sanxenxo Galicia",
-    startDate: "2024-09-13T22:00:00Z",
-    endDate: "2024-09-14T00:00:00Z"
+    startDate: "2024-09-13T20:00:00Z",
+    endDate: "2024-09-14T04:00:00Z"
   },
 ];
 

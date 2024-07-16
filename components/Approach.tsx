@@ -26,7 +26,7 @@ const Approach = () => {
         <Card
           title="GROOVE"
           icon={<AceternityIcon order="GROOVE" />}
-          des="La fiesta nunca se detiene en Groove InClub. ¿Estás listo para una noche llena de sorpresas y momentos inolvidables."
+          des="La fiesta nunca se detiene en Groove In Club. ¿Estás listo para una noche llena de sorpresas y momentos inolvidables?"
         >
           <CanvasRevealEffect
             animationSpeed={3}
