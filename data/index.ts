@@ -6,7 +6,6 @@ export const navItems = [
 ];
 
 export const gridItems = [
-
   {
     id: 2,
     title: " Siente la conexión global en nuestras fiestas.",
@@ -60,82 +59,9 @@ export const projects = [
     link: "https://sales.premiumguest.com/dual-crew/es/dual-crew/groove-in-club-presenta-dual-crew",
     location: "Sanxenxo Galicia",
     startDate: "2024-07-26T20:00:00Z",
-    endDate: "2024-07-27T04:00:00Z"
-  },
-  {
-    id: 2,
-    title: "SAFARI CLUB",
-    des: "Vier 02 Ago 2024 ",
-    img: "/02agostoCartel.svg",
-    iconLists: ["/Logo-Groove.png", "/DualCrew.png"],
-    instagram: "https://www.instagram.com/_groovinclub/",
-    link: "",
-    location: "Sanxenxo Galicia",
-    startDate: "2024-08-02T20:00:00Z",
-    endDate: "2024-08-03T04:00:00Z"
-  },
-  {
-    id: 3,
-    title: "SAFARI CLUB",
-    des: "Vier 09 Ago 2024 ",
-    img: "/09agostoCartel.svg",
-    iconLists: ["/Logo-Groove.png", "/DualCrew.png"],
-    instagram: "https://www.instagram.com/_groovinclub/",
-    link: "",
-    location: "Sanxenxo Galicia",
-    startDate: "2024-08-09T20:00:00Z",
-    endDate: "2024-08-10T04:00:00Z"
-  },
-  {
-    id: 4,
-    title: "SAFARI CLUB",
-    des: "Vier 16 Ago 2024 ",
-    img: "/16agostoCartel.svg",
-    iconLists: ["/Logo-Groove.png", "/DualCrew.png"],
-    instagram: "https://www.instagram.com/_groovinclub/",
-    link: "",
-    location: "Sanxenxo Galicia",
-    startDate: "2024-08-16T20:00:00Z",
-    endDate: "2024-08-17T04:00:00Z"
-  },
-  {
-    id: 5,
-    title: "SAFARI CLUB",
-    des: "Vier 23 Ago 2024 ",
-    img: "/23agostoCartel.svg",
-    iconLists: ["/Logo-Groove.png", "/DualCrew.png"],
-    instagram: "https://www.instagram.com/_groovinclub/",
-    link: "",
-    location: "Sanxenxo Galicia",
-    startDate: "2024-08-23T20:00:00Z",
-    endDate: "2024-08-24T04:00:00Z"
-  },
-  {
-    id: 6,
-    title: "SAFARI CLUB",
-    des: "Vier 30 Ago 2024 ",
-    img: "/30agostoCartel.svg",
-    iconLists: ["/Logo-Groove.png", "/DualCrew.png"],
-    instagram: "https://www.instagram.com/_groovinclub/",
-    link: "",
-    location: "Sanxenxo Galicia",
-    startDate: "2024-08-30T20:00:00Z",
-    endDate: "2024-08-31T04:00:00Z"
-  },
-  {
-    id: 7,
-    title: "SAFARI CLUB",
-    des: "Vier 13 Sep 2024 ",
-    img: "/13septiembreCartel.svg",
-    iconLists: ["/Logo-Groove.png", "/DualCrew.png"],
-    instagram: "https://www.instagram.com/_groovinclub/",
-    link: "",
-    location: "Sanxenxo Galicia",
-    startDate: "2024-09-13T20:00:00Z",
-    endDate: "2024-09-14T04:00:00Z"
+    endDate: "2024-07-27T04:00:00Z",
   },
 ];
-
 
 export const testimonials = [
   {
@@ -143,28 +69,27 @@ export const testimonials = [
       "¡Las fiestas Groove son increíbles! La energía, la música y la gente crean una experiencia única. Es como estar en una celebración mundial, donde todos se conectan a través del ritmo. ¡Definitivamente una noche para recordar!",
     name: "Rave Girl",
     title: "",
-    img: "card3.png"
+    img: "card3.png",
   },
   {
     quote:
       "Groove InClub no es solo una fiesta, es una experiencia que te atrapa y te hace querer más. La combinación de buena música y una atmósfera electrizante te hace sentir vivo. Sleep, Rave, Repeat. ¡Así es como se vive!",
     name: "Rave People",
     title: "",
-    img: "card.png"
+    img: "card.png",
   },
   {
-    quote:
-      "🔥🔥🔥🔥 el Groove es pura vida !!!!",
+    quote: "🔥🔥🔥🔥 el Groove es pura vida !!!!",
     name: "Rave Man",
     title: "",
-    img: "card2.png"
+    img: "card2.png",
   },
   {
     quote:
       "Desde la primera vez que fui a Groove InClub, supe que no sería la última. La experiencia es simplemente adictiva. Es el lugar perfecto para olvidarte de todo y disfrutar. ¡No puedo esperar para repetir!",
     name: "Rave People",
     title: "",
-    img: "card1.png"
+    img: "card1.png",
   },
 ];
 
@@ -221,10 +146,9 @@ export const workExperience = [
 ];
 
 export const socialMedia = [
-
   {
     id: 3,
     img: "/link.svg",
-    url: "https://www.instagram.com/_groovinclub/"
+    url: "https://www.instagram.com/_groovinclub/",
   },
 ];
