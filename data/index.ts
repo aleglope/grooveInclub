@@ -148,7 +148,7 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 3,
-    img: "/link.svg",
+    img: "/instagram.svg",
     url: "https://www.instagram.com/_groovinclub/",
   },
 ];

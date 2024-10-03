@@ -38,12 +38,12 @@ const Footer = () => {
           {socialMedia.map((info) => (
             <a
               key={info.id}
-              href={info.url} // Asegúrate de que el enlace esté aquí
-              target="_blank" // Opcional: abre el enlace en una nueva pestaña
+              href={info.url}
+              target="_blank"
               rel="noopener noreferrer" // Seguridad: evita que la nueva pestaña tenga acceso a la página de origen
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
-              <img src={info.img} alt="icons" width={20} height={20} />
+              <img src={info.img} alt="icons" width={100} height={100} />
             </a>
           ))}
         </div>
