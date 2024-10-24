@@ -11,18 +11,17 @@ import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Slider from "@/components/ui/Slider";
-import Image from 'next/image';
-
+import Image from "next/image";
 
 const LoadingScreen: React.FC = () => {
   return (
     <div className="fixed inset-0 flex flex-col items-center justify-center bg-black z-50">
-      <Image 
-        src="/LogoGROOVE.svg" 
-        alt="Logotipo de Groove In Club" 
-        width={400}  // Puedes ajustar el tamaño que desees, en este caso 48 * 4px
-        height={400} 
-        priority={true}  // Carga prioritaria si es necesario
+      <Image
+        src="/LogoGROOVE.svg"
+        alt="Logotipo de Groove In Club"
+        width={400} // Puedes ajustar el tamaño que desees, en este caso 48 * 4px
+        height={400}
+        priority={true} // Carga prioritaria si es necesario
         className="animate-pulse"
       />
     </div>
@@ -57,6 +56,7 @@ const Home: React.FC = () => {
         <RecentProjects />
         <Clients />
         <Approach />
+        <Experience />
         <Footer />
       </div>
     </main>

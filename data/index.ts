@@ -51,6 +51,30 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "A Pousada da Galiza Imaxinaria",
+    des: "Sab 02 Nov 2024 ",
+    img: "/02-11Pousada.jpg",
+    iconLists: ["/Logo-Groove.png", "/DualCrew.png"],
+    instagram: "https://www.instagram.com/_groovinclub/",
+    link: "https://apousada.eu/producto/grooveinclub/",
+    location: "Boiro Galicia",
+    startDate: "2024-11-02T20:00:00Z",
+    endDate: "2024-11-02T04:00:00Z",
+  },
+  {
+    id: 2,
+    title: "Discoteca Gymare",
+    des: "Sab 09 Nov 2024",
+    img: "/09-11Gymare.jpg",
+    iconLists: ["/Logo-Groove.png", "/DualCrew.png"],
+    instagram: "https://www.instagram.com/_groovinclub/",
+    link: "https://www.instagram.com/direct/t/17845468317160903",
+    location: "Noia Galicia",
+    startDate: "2024-11-09T20:00:00Z",
+    endDate: "2024-11-09T04:00:00Z",
+  },
+  {
+    id: 3,
     title: "SAFARI CLUB",
     des: "Vier 26 Jul 2024 ",
     img: "/26julioCartel.svg",
@@ -115,40 +139,55 @@ export const companies = [
 ];
 
 export const workExperience = [
-  {
-    id: 1,
-    title: "Mas contenido",
-    desc: "Mas contenido",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "mas contenido",
-    desc: "mas contenido",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
+  //   {
+  //     id: 1,
+  //     title: "Mas contenido",
+  //     desc: "Mas contenido",
+  //     className: "md:col-span-2",
+  //     thumbnail: "/exp1.svg",
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "mas contenido",
+  //     desc: "mas contenido",
+  //     className: "md:col-span-2",
+  //     thumbnail: "/exp2.svg",
+  //   },
   {
     id: 3,
-    title: "mas contenido",
-    desc: "mas contenido",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Unete a nuestra comunidad de Whatsapp",
+    desc: "Entérate de todas nuestras novedades y eventos al instante!",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
-  {
-    id: 4,
-    title: "mas contenido",
-    desc: "mas contenido",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+  //   {
+  //     id: 4,
+  //     title: "mas contenido",
+  //     desc: "mas contenido",
+  //     className: "md:col-span-2",
+  //     thumbnail: "/exp4.svg",
+  //   },
 ];
 
 export const socialMedia = [
   {
+    id: 2,
+    img: "/youtube.svg",
+    url: "https://www.youtube.com/@Groovinclub1/videos",
+  },
+  {
     id: 3,
     img: "/instagram.svg",
     url: "https://www.instagram.com/_groovinclub/",
+  },
+  {
+    id: 3,
+    img: "/tiktok.svg",
+    url: "https://www.tiktok.com/@_brenlla",
+  },
+  {
+    id: 4,
+    img: "/whatsapp.svg",
+    url: "https://chat.whatsapp.com/ExtrXCFN9YwGhpABJD8tar",
   },
 ];

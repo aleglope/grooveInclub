@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 
 import { workExperience } from "@/data";
@@ -7,7 +8,7 @@ const Experience = () => {
   return (
     <div className="py-20 w-full">
       <h1 className="heading">
-        Mas <span className="text-purple">contenido</span>
+        Unete a la <span className="text-purple">comunidad</span>
       </h1>
 
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">

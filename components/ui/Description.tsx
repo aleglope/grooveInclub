@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { images } from "./constants";
 import left from "@/public/left.svg";

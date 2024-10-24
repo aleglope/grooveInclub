@@ -1,3 +1,5 @@
+"use client";
+
 import { useState, useEffect } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 import { cn } from "@/lib/utils";
