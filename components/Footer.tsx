@@ -1,5 +1,3 @@
-"use client";
-
 import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
@@ -23,7 +21,7 @@ const Footer = () => {
         <p className="text-white-200 md:mt-10 my-5 text-center">
           ¿Quieres colaborar con nosotros?
         </p>
-        <a href="mailto:contact@gmail.com">
+        <a href="mailto:grooveinclub@gmail.com">
           <MagicButton
             title="MAIL"
             icon={<FaLocationArrow />}

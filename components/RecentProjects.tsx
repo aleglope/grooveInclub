@@ -7,7 +7,7 @@ import CanvasContainer from "./CanvasContainer";
 
 // Helper function to format date for Google Calendar
 const formatDateForGoogleCalendar = (date: any) => {
-  const formattedDate = new Date(date).toISOString().replace(/-|:|\.\d+/g, '');
+  const formattedDate = new Date(date).toISOString().replace(/-|:|\.\d+/g, "");
   return formattedDate;
 };
 
@@ -22,7 +22,11 @@ const RecentProjects = () => {
         {projects.map((item) => {
           const startDate = formatDateForGoogleCalendar(item.startDate);
           const endDate = formatDateForGoogleCalendar(item.endDate);
-          const googleCalendarUrl = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(item.title)}&dates=${startDate}/${endDate}&details=${encodeURIComponent(item.des)}&location=${encodeURIComponent(item.location)}`;
+          const googleCalendarUrl = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(
+            item.title
+          )}&dates=${startDate}/${endDate}&details=${encodeURIComponent(
+            item.des
+          )}&location=${encodeURIComponent(item.location)}`;
 
           return (
             <div

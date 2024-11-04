@@ -1,5 +1,3 @@
-"use client";
-
 import { useState, useEffect } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 import { cn } from "@/lib/utils";
@@ -46,15 +44,29 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["Kompa", "Duart", "Borja Pikallo", "Irene Castro", "Techla"];
-  const rightLists = ["Hchspannung", "Ivan Rbeira", "Dj Pepo", "Saraiba", "Brenlla"];
+  const leftLists = [
+    "Kompa",
+    "Duart",
+    "Borja Pikallo",
+    "Irene Castro",
+    "Techla",
+  ];
+  const rightLists = [
+    "Hchspannung",
+    "Ivan Rbeira",
+    "Dj Pepo",
+    "Saraiba",
+    "Brenlla",
+  ];
 
   const [copied, setCopied] = useState(false);
-  const [Lottie, setLottie] = useState<typeof import('react-lottie').default | null>(null);
+  const [Lottie, setLottie] = useState<
+    typeof import("react-lottie").default | null
+  >(null);
 
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      import('react-lottie').then(LottieModule => {
+    if (typeof window !== "undefined") {
+      import("react-lottie").then((LottieModule) => {
         setLottie(() => LottieModule.default);
       });
     }
@@ -98,8 +110,9 @@ export const BentoGridItem = ({
           )}
         </div>
         <div
-          className={`absolute right-0 -bottom-5 ${id === 5 && "w-full opacity-80"
-            } `}
+          className={`absolute right-0 -bottom-5 ${
+            id === 5 && "w-full opacity-80"
+          } `}
         >
           {spareImg && (
             <img
@@ -131,7 +144,7 @@ export const BentoGridItem = ({
           </div>
 
           {id === 2 && <GridGlobe />}
-          
+
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-4 lg:-right-2">
               <div className="flex flex-col gap-3 md:gap-8 lg:gap-8">
@@ -151,7 +164,7 @@ export const BentoGridItem = ({
                 {rightLists.map((item, i) => (
                   <span
                     key={i}
-                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50
                     lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}
@@ -162,7 +175,11 @@ export const BentoGridItem = ({
           )}
           {id === 6 && Lottie && (
             <div className="mt-5 relative">
-              <div className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"}`}>
+              <div
+                className={`absolute -bottom-5 right-0 ${
+                  copied ? "block" : "block"
+                }`}
+              >
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
 

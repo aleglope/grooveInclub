@@ -1,4 +1,3 @@
-"use client";
 import { FaLocationArrow } from "react-icons/fa6";
 
 import MagicButton from "./MagicButton";
@@ -58,10 +57,16 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-          GROOVE IN CLUB es un evento musical que va dirigido a toda la gente vinculada a la estética urbana de la electrónica y el underground, 
-          apostando por la innovación y la creatividad, potenciando diferentes géneros y dotando de las mejores infraestructuras que rompan los límites y nos sorprendan con nuevas formas de expresión, 
-          buscando la cercanía del público con el DJ y que ambos disfruten de esto. Muchos y muchas artistas vienen no solo por la actuación, sino por la ciudad donde elegimos hacer cada evento, por su gente, por el público, el ambiente... 
-          GROOVE IN CLUB es ese evento donde todos y todas quieren venir y en el que todos y todas somos una parte de él.
+            GROOVE IN CLUB es un evento musical que va dirigido a toda la gente
+            vinculada a la estética urbana de la electrónica y el underground,
+            apostando por la innovación y la creatividad, potenciando diferentes
+            géneros y dotando de las mejores infraestructuras que rompan los
+            límites y nos sorprendan con nuevas formas de expresión, buscando la
+            cercanía del público con el DJ y que ambos disfruten de esto. Muchos
+            y muchas artistas vienen no solo por la actuación, sino por la
+            ciudad donde elegimos hacer cada evento, por su gente, por el
+            público, el ambiente... GROOVE IN CLUB es ese evento donde todos y
+            todas quieren venir y en el que todos y todas somos una parte de él.
           </p>
 
           <a href="#about">
