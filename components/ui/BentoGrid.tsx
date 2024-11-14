@@ -183,7 +183,7 @@ export const BentoGridItem = ({
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
 
-              <a href="tel:6060815582">
+              <a href="tel:606015582">
                 <MagicButton
                   title="Llamar"
                   icon={<IoCopyOutline />}

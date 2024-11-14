@@ -16,7 +16,7 @@ export const gridItems = [
     img: "",
     spareImg: "",
   },
-  {
+  /*{
     id: 3,
     title: "y más....",
     description: "Techno,Trap,House,Electro",
@@ -35,7 +35,7 @@ export const gridItems = [
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/djbrenlla.png",
     spareImg: "/grid.svg",
-  },
+  },*/
   {
     id: 6,
     title: "¿Te gustaría un lugar reservado?",
@@ -123,18 +123,6 @@ export const companies = [
     name: "",
     img: "LogoGROOVE.svg",
     nameImg: "GIL",
-  },
-  {
-    id: 2,
-    name: "",
-    img: "Logodualcrew.svg",
-    nameImg: "DC",
-  },
-  {
-    id: 3,
-    name: "",
-    img: "DualCrew.svg",
-    nameImg: "DC",
   },
 ];
 
