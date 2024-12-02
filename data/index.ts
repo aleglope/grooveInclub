@@ -51,15 +51,15 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "A Pousada da Galiza Imaxinaria",
-    des: "Sab 02 Nov 2024 ",
-    img: "/02-11Pousada.svg",
+    title: "A Pousada Da Galiza Imaxinaria",
+    des: "Sab 07 Dic 2024",
+    img: "/07-12Pousada.svg",
     iconLists: ["/Logo-Groove.png", "/DualCrew.png"],
     instagram: "https://www.instagram.com/_groovinclub/",
-    link: "https://apousada.eu/producto/grooveinclub/",
+    link: "https://apousada.eu/producto/grooveinclub-3/",
     location: "Boiro Galicia",
-    startDate: "2024-11-02T20:00:00Z",
-    endDate: "2024-11-02T04:00:00Z",
+    startDate: "2024-12-07T20:00:00Z",
+    endDate: "2024-12-07T04:00:00Z",
   },
   {
     id: 2,
@@ -72,18 +72,6 @@ export const projects = [
     location: "Noia Galicia",
     startDate: "2024-11-09T20:00:00Z",
     endDate: "2024-11-09T04:00:00Z",
-  },
-  {
-    id: 3,
-    title: "SAFARI CLUB",
-    des: "Vier 26 Jul 2024 ",
-    img: "/26julioCartel.svg",
-    iconLists: ["/Logo-Groove.png", "/DualCrew.png"],
-    instagram: "https://www.instagram.com/_groovinclub/",
-    link: "https://sales.premiumguest.com/dual-crew/es/dual-crew/groove-in-club-presenta-dual-crew",
-    location: "Sanxenxo Galicia",
-    startDate: "2024-07-26T20:00:00Z",
-    endDate: "2024-07-27T04:00:00Z",
   },
 ];
 

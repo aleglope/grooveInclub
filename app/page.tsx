@@ -8,10 +8,10 @@ import Footer from "@/components/Footer";
 import Clients from "@/components/Clients";
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
-import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Slider from "@/components/ui/Slider";
 import Image from "next/image";
+import DatesEvents from "@/components/DatesEvents";
 
 const LoadingScreen: React.FC = () => {
   return (
@@ -53,7 +53,7 @@ const Home: React.FC = () => {
         <Hero />
         <Grid />
         <Slider />
-        <RecentProjects />
+        <DatesEvents />
         <Clients />
         {/* <Approach /> */}
         <Experience />
