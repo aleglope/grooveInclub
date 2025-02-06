@@ -53,7 +53,7 @@ export const projects = [
     id: 1,
     title: "Discoteca Gymare",
     des: "Sab 08 Feb 2025",
-    img: "/Febrero 8 (GYMARE).png",
+    img: "/FEBRERO 8 (GYMARE).png",
     iconLists: ["/Logo-Groove.png"],
     instagram: "https://www.instagram.com/_groovinclub/",
     link: "https://www.instagram.com/direct/t/17845468317160903",
