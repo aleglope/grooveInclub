@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import { navItems } from "@/data";
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
@@ -59,6 +60,7 @@ const Home: React.FC = () => {
         <Experience />
         <Footer />
       </div>
+      <Analytics />
     </main>
   );
 };
